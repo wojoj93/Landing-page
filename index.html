@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
-    <title>HomeCoders - Website for You</title>
+    <title>HomeCoders - App for You</title>
 
     <!-- Styles -->
     <link href="assets/css/core.min.css" rel="stylesheet" />
@@ -20,7 +20,7 @@
     <link rel="icon" href="assets/img/favicon.png" />
 </head>
 
-<body>
+<body id="section-topbar">
     <!-- Topbar -->
     <nav class="topbar topbar-inverse topbar-expand-md topbar-sticky">
         <div class="container">
@@ -32,16 +32,16 @@
         <div class="topbar-right">
           <ul class="topbar-nav nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" data-scrollto="section-topbar" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-scrollto="section-technologies">Technologies</a>
+              <a class="nav-link" href="#" data-scrollto="section-offer">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" data-scrollto="section-portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-scrollto="section-about">About</a>
+              <a class="nav-link" href="#" data-scrollto="section-technologies">Technologies</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" data-scrollto="section-contact">Contact</a>
@@ -59,18 +59,18 @@
     >
       <div class="container text-center">
         <div class="row h-full">
-          <div class="col-12 col-lg-8 offset-lg-2 align-self-center">
-            <h1 class="hidden-sm-down">
-              We create websites for
+          <div class=" align-self-center">
+            <h1 class="display-4 hidden-sm-down">
+              WE CREATE WEB APPLICATION FOR <br>
               <span
                 class="text-primary"
-                data-type="Startups, Companies, Small Enterprises, You"
+                data-type="STARTUPS, COMPANIES, SMALL ENTERPRISES, YOU!"
               ></span>
             </h1>
             <h1 class="hidden-md-up">
-              We create websites for <br /><span
+               WE CREATE WEB APPLICATION FOR<br /><span
                 class="text-primary"
-                data-type="Startups, Companies, Small Enterprises, You"
+                data-type="STARTUPS, COMPANIES, SMALL ENTERPRISES, YOU!"
               ></span>
             </h1>
             <br />
@@ -90,7 +90,7 @@ web and mobile applications development.
                 <br />
 
                 <p>
-                    <a class="btn btn-lg btn-round btn-white mr-12" href="#" data-scrollto="section-technologies">Start Now</a
+                    <a class="btn btn-lg btn-round btn-white mr-12" href="#" data-scrollto="section-offer">Start Now</a
               >
               <a
                 class="btn btn-lg btn-round btn-outline btn-white hidden-sm-down"
@@ -111,6 +111,110 @@ web and mobile applications development.
             <!-- Main container -->
             <main class="main-content">
 
+                <section id="section-offer" class="section bg-gray">
+                    <div class="container">
+                        <header class="section-header">
+                            <small>What we offer</small>
+                            <h2>Services</h2>
+                            <hr>
+                            <p class="lead">Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization.</p>
+                        </header>
+
+                        <div class="row gap-y">
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-success"><i class="ti-layout"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Web Design</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-info"><i class="ti-wordpress"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Logo Design</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-dark"><i class="ti-palette"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Branding</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-warning"><i class="ti-medall"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Marketing</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-danger"><i class="ti-heart"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Advertising</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-xl-4 text-center">
+                                <p class="fs-50 text-primary"><i class="ti-headphone-alt"></i></p>
+                                <h6 class="fw-600 text-uppercase letter-spacing-2 mb-2">Support</h6>
+                                <p>Monotonectally interactive resources competitive. Interactively conceptualize top-line ideas before error-free networks.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </section>
+                <section class="section overflow-hidden" id="section-portfolio">
+                    <div class="container">
+                        <header class="section-header">
+                            <small>Portfolio</small>
+                            <h2>Portfolio</h2>
+                            <hr>
+                            <p class="lead">You can find several product created by our professional team in this section.</p>
+                        </header>
+                        <div data-provide="shuffle">
+                            <div class="row gap-y gap-2 shuffle" data-shuffle="list" style="position: relative; overflow: hidden; height: 430.234px; transition: height 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
+
+                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="bag,box" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
+                                    <a class="portfolio-1" href="page-project.html">
+                                        <img src="assets/img/portfolio-1.jpg" alt="screenshot">
+                                        <div class="portfolio-details">
+                                            <h5>Trigger.to</h5>
+                                            <p class="p-10">The trigger.to allows to interact with online business from the real word</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="book" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(282px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
+                                    <a class="portfolio-1" href="page-project.html">
+                                        <img src="assets/img/portfolio-2.jpg" alt="screenshot">
+                                        <div class="portfolio-details">
+                                            <h5>In progress</h5>
+                                            <p>More information soon</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="box" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(563px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
+                                    <a class="portfolio-1" href="page-project.html">
+                                        <img src="assets/img/portfolio-3.jpg" alt="screenshot">
+                                        <div class="portfolio-details">
+                                            <h5>Your Website</h5>
+                                            <p>This is a place for Your website</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="bottle" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(845px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
+                                    <a class="portfolio-1" href="page-project.html">
+                                        <img src="assets/img/portfolio-4.jpg" alt="screenshot">
+                                        <div class="portfolio-details">
+                                            <h5>Your Website</h5>
+                                            <p>This is a place for Your website</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </section>
                 <section class="section overflow-hidden bg-gray" id="section-technologies">
                     <div class="container">
                         <header class="section-header">
@@ -222,62 +326,6 @@ web and mobile applications development.
 
                             </div>
                         </section>
-                        <br>
-                        <br>
-                </section>
-
-                <section class="section overflow-hidden" id="section-portfolio">
-                    <div class="container">
-                        <header class="section-header">
-                            <small>Portfolio</small>
-                            <h2>Portfolio</h2>
-                            <hr>
-                            <p class="lead">You can find several product created by our professional team in this section.</p>
-                        </header>
-                        <div data-provide="shuffle">
-                            <div class="row gap-y gap-2 shuffle" data-shuffle="list" style="position: relative; overflow: hidden; height: 430.234px; transition: height 500ms cubic-bezier(0.4, 0, 0.2, 1) 0s;">
-
-                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="bag,box" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-                                    <a class="portfolio-1" href="page-project.html">
-                                        <img src="assets/img/portfolio-1.jpg" alt="screenshot">
-                                        <div class="portfolio-details">
-                                            <h5>Trigger.to</h5>
-                                            <p class="p-10">The trigger.to allows to interact with online business from the real word</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="book" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(282px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-                                    <a class="portfolio-1" href="page-project.html">
-                                        <img src="assets/img/portfolio-2.jpg" alt="screenshot">
-                                        <div class="portfolio-details">
-                                            <h5>In progress</h5>
-                                            <p>More information soon</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="box" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(563px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-                                    <a class="portfolio-1" href="page-project.html">
-                                        <img src="assets/img/portfolio-3.jpg" alt="screenshot">
-                                        <div class="portfolio-details">
-                                            <h5>Your Website</h5>
-                                            <p>This is a place for Your website</p>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-6 col-lg-3 shuffle-item shuffle-item--visible" data-shuffle="item" data-groups="bottle" style="position: absolute; top: 0px; left: 0px; visibility: visible; will-change: transform; opacity: 1; transform: translate(845px, 0px) scale(1); transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-property: transform, opacity;">
-                                    <a class="portfolio-1" href="page-project.html">
-                                        <img src="assets/img/portfolio-4.jpg" alt="screenshot">
-                                        <div class="portfolio-details">
-                                            <h5>Your Website</h5>
-                                            <p>This is a place for Your website</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
                 </section>
 
                 <section class="section overflow-hidden" id="section-contact">
@@ -337,7 +385,7 @@ web and mobile applications development.
                 </section>
             </main>
 
-            <footer class="site-footer py-90">
+            <footer class="site-footer py-90" style="background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);">
                 <div class="container">
                     <div class="row gap-y">
                         <div class="col-12 col-md-5">
